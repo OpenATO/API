@@ -7,6 +7,21 @@ Rapid ATO is system designed to simplify the process of creating a System Securi
 [Component Definitions](https://pages.nist.gov/OSCAL/reference/latest/component-definition/) to help
 you create an [OSCAL formatted SSP](https://pages.nist.gov/OSCAL/reference/latest/system-security-plan/).
 
+
+## Getting Started
+
+### Prerequesites
+
+- Docker & Docker Compose
+- Python3
+- Django
+    `pip3 install Django`
+
+- Django Virtual Environment
+    /path-to-api/
+
+
+
 ## Local configuration
 
 The easiest way to get up and running is to copy the `docker-compose.yml.example` file in the project root up a
