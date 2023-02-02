@@ -131,3 +131,5 @@ dmypy.json
 
 # Local Development
 docker-compose.yml
+media/catalogs/*
+media/ratoapi/*

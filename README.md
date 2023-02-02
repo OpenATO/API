@@ -42,7 +42,7 @@ python3 manage.py createsuperuser
 ```
 
 And enter a username and password when prompted.
-This will allow access to access the admin site, http://localhost:8000/admin/ where the database can be interacted with
+This will allow access to access the admin site, http://localhost:8080/admin/ where the database can be interacted with
 directly.
 
 ### Migrations
@@ -95,6 +95,7 @@ To run the server (outside the docker container), first set the following enviro
 Where `POSTGRES_DB_NAME`, `POSTGRES_PASSWORD`, and `POSTGRES_USER` will need to correspond to the database name and
 postgres super-user created during database setup.
 
+
 Then run the server:
 
 ```shell
@@ -108,7 +109,7 @@ Go to http://localhost:8000/doc.json or http://localhost:8000/doc.yaml to see th
 
 ### Django REST Framework UI
 
-Go to http://localhost:8000/ to see the index page of the REST framework UI.
+Go to http://localhost:8080/ to see the index page of the REST framework UI.
 Any request defined in for the API can be executed in a browser and viewed via this UI, but actions/data may be
 restricted until a user logs in with appropriate permissions.
 
