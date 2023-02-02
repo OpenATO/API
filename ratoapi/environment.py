@@ -13,8 +13,8 @@ class Environment:
         defaul_secret_key = (
             "django-insecure-_o$0y5g@1*uyrw0!3(0%wdv-ds5wp26yp*bko+q#y4b&y!50%6"
         )
-        hosts = {"localhost", "127.0.0.1"}
-        env_hosts = os.environ.get("ALLOWED_HOSTS", "localhost")
+        hosts = {"0.0.0.0", "localhost", "127.0.0.1"}
+        env_hosts = os.environ.get("ALLOWED_HOSTS", "0.0.0.0")
         if env_hosts:
             hosts.add(env_hosts)
             # In case of containerized deployment to ECS/Fargate get the ip address of target group and add it to
